@@ -9,5 +9,5 @@ axis => axis along which to concatenate
 """
 arr1=np.array([[1,2],[3,4]])
 arr2=np.array([[5,6],[7,8]])
-result=np.concatenate((arr1, arr2), axis=None)
+result=np.concatenate((arr1, arr2), axis=0)
 print(result)

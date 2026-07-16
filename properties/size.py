@@ -17,3 +17,11 @@ lis=[[[1,2],[1,2],[1,3]],[[1,2],[1,2],[1,3]],[[1,2],[1,3],[1,4]]]
 np_size=np.size(lis)
 
 print(np_size)
+
+a = np.ones((2,5))
+
+print(a.size)
+
+a = np.array([])
+
+print(a.size)
